@@ -133,7 +133,7 @@ bool oled_task_user(void) {
 
         switch (get_highest_layer(layer_state)) {
             case _QWERTY:
-                oled_write_P(PSTR("QWRTY\n"), false);
+                oled_write_P(PSTR("Base\n"), false);
                 break;
             case _LOWER:
                 oled_write_P(PSTR("LOWER\n"), false);
