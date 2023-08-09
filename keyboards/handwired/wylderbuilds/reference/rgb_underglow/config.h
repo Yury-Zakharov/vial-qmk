@@ -1,6 +1,7 @@
 #ifdef RGBLIGHT_ENABLE
 //#define WS2812_PIO_USE_PIO1
 //#define WS2812_PIO_USE_PIO1
+#define RGBLIGHT_LAYERS
 #define RGB_DI_PIN GP21 // can use trackball jack if not used
 //#define WS2812_EXTERNAL_PULLUP
 #define RGBLED_NUM 36
