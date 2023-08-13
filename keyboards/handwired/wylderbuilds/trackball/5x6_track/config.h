@@ -22,7 +22,7 @@
 //#define MASTER_LEFT
 
 
-// Using Serial instead of I2C
+#define USE_SERIAL
 #define SERIAL_USART_FULL_DUPLEX 
 #define SERIAL_USART_TX_PIN GP0
 #define SERIAL_USART_RX_PIN GP1
